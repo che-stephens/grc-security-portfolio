@@ -14,7 +14,6 @@ Simulate a Joiner-Mover-Leaver (JML) process to manage user access based on role
 - Simulated onboarding (new user access)
 - Simulated offboarding (removing access)
 - Reviewed and updated access controls
-
 ## Evidence
 
 ### Before (Initial Access State)
@@ -22,18 +21,6 @@ Simulate a Joiner-Mover-Leaver (JML) process to manage user access based on role
 
 ### After (RBAC + Lifecycle Implemented)
 ![After](user-lifecycle-after.png)
-
-### User Access Table
-![User Table](user-table.png)
-
-### MFA Enabled Confirmation
-![MFA Enabled](mfa-enabled-confirmation.jpeg)
-
-### Security Settings Overview
-![Security Settings](security-settings-overview.jpeg)
-
-### MFA Setup Process
-![MFA Setup](mfa-setup-process.jpeg)
 
 ## Findings
 - Users initially had inconsistent access assignments
