@@ -17,6 +17,12 @@ Simulate a Joiner-Mover-Leaver (JML) process to manage user access based on role
 
 ## Evidence
 
+### Before (Initial Access State)
+![Before](user-lifecycle-before.png)
+
+### After (RBAC + Lifecycle Implemented)
+![After](user-lifecycle-after.png)
+
 ### User Access Table
 ![User Table](user-table.png)
 
