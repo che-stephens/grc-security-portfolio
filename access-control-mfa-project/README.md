@@ -4,23 +4,26 @@
 Implement multi-factor authentication (MFA) to strengthen account security and align with NIST 800-53 Access Control (AC) standards.
 
 ## Scope
-- Platform: Microsoft or Google account
-- Focus: Authentication and session security
+- Platform: Microsoft account
+- Focus: Authentication and account security controls
 
 ## Actions Taken
-- Reviewed current authentication settings
-- Enabled MFA
-- Reviewed active sessions and devices
+- Reviewed current authentication and security settings
+- Identified incomplete authentication controls
+- Enabled multi-factor authentication (MFA)
+- Reviewed account sign-in methods and security configuration
 
 ## Evidence
-(Screensshots will be added)
+- mfa-enabled-confirmation.jpg
+- security-settings-overview.jpg
+- mfa-setup-process.jpg
 
 ## Findings
-- MFA was not enabled, creating a risk of unauthorized access
+- MFA was not fully configured initially, creating a potential risk of unauthorized account access
 
 ## Remediation
-- Enabled MFA for the account
+- Implemented MFA to enhance authentication security
 
 ## Result
-- Improved account security posture
+- Strengthened access control posture
 - Reduced risk of unauthorized access
