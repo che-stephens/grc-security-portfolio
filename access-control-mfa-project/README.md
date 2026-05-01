@@ -16,13 +16,13 @@ Implement multi-factor authentication (MFA) to strengthen account security and a
 ## Evidence
 
 ### MFA Enabled Confirmation
-![MFA Enabled](mfa-enabled-confirmation.jpg)
+![MFA Enabled](mfa-enabled-confirmation.jpeg)
 
 ### Security Settings Overview
-![Security Settings](security-settings-overview.jpg)
+![Security Settings](security-settingss-overview.jpeg)
 
 ### MFA Setup Process
-![MFA Setup](mfa-setup-process.jpg)
+![MFA Setup](mfa-setup-process.jpeg)
 
 ## Findings
 - MFA was not fully configured initially, creating a potential risk of unauthorized account access
