@@ -1,0 +1,11 @@
+WAZUH SECURITY DETECTION TEST
+Test date: October 13, 2026
+Tool: Wazuh Manager 4.14.8
+Event: Simulated failed SSH login for invalid user trainee
+Source IP: 192.0.2.10
+Observed detection rule: 5710
+Observed alert level: 5
+Result: Wazuh matched the simulated authentication event.
+Evidence type: Manually documented observations from lab screenshots.
+Limitation: Original terminal output was not preserved due to storage exhaustion.
+No real-world attack or compromise occurred.
