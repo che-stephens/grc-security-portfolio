@@ -1,0 +1,7 @@
+Oct 13 10:01:12 server sshd: Failed password for user admin from 192.0.2.10 port 45231
+Oct 13 10:01:15 server sshd: Failed password for user admin from 192.0.2.10 port 45232
+Oct 13 10:01:18 server sshd: Failed password for user admin from 192.0.2.10 port 45233
+Oct 13 10:01:21 server sshd: Failed password for user admin from 192.0.2.10 port 45234
+Oct 13 10:02:05 server sshd: Failed password for user guest from 198.51.100.25 port 45111
+Oct 13 10:02:10 server sshd: Failed password for user guest from 198.51.100.25 port 45112
+Oct 13 10:03:00 server sshd: Accepted password for user admin from 203.0.113.5 port

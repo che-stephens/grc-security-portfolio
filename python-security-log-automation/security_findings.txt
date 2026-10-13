@@ -1,0 +1,11 @@
+SECURITY LOG ANALYSIS REPORT
+----------------------------
+Total failed logins: 6
+
+IP Address: 192.0.2.10
+Failed attempts: 4
+ALERT: Possible brute-force activity
+
+IP Address: 198.51.100.25
+Failed attempts: 2
+Status: Below alert threshold
