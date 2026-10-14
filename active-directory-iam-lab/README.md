@@ -37,7 +37,9 @@ Configured a restricted Finance file share using Samba.
 
 Successfully verified Finance account authentication against the standard SYSVOL share.
 
-Finance share access testing remains unresolved due to a connection error. Authorization enforcement has not yet been verified.
+Separate interactive access tests demonstrated that finance.analyst could access the Finance-Restricted share while helpdesk.trainee received NT_STATUS_ACCESS_DENIED.
+
+These observations are documented in iam_access_verification.md. Attempts to record the interactive tests produced connection errors and are not presented as successful recordings.
 
 ## Security Principles
 - Identity and Access Management
@@ -49,11 +51,10 @@ Finance share access testing remains unresolved due to a connection error. Autho
 ## Evidence
 iam_evidence.txt
 
-## Future Improvements
-- Troubleshoot Finance share connectivity
-- Verify authorized Finance access
-- Verify unauthorized Help Desk access is denied
-- Document successful positive and negative access tests
+## Further Validation
+- Capture reproducible access test output without exposing passwords.
+- Investigate connection errors during recorded test sessions.
+- Review share and filesystem permissions for least privilege.
 
 ## Disclaimer
 All accounts, groups, and resources were created in an authorized training environment.
